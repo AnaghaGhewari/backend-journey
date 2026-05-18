@@ -79,3 +79,64 @@ Example:
 Client -----> Request -----> Server
 Client <----- Response <---- Server
 ```
+
+# Week 1 - Day 2 REST APIs
+
+## What is REST?
+
+REST stands for Representational State Transfer.
+
+REST APIs:
+- use HTTP
+- use endpoints
+- use JSON
+- are stateless
+
+---
+
+## REST Principles
+
+- Client-server architecture
+- Stateless communication
+- Resource-based URLs
+- Uniform interface
+
+---
+
+## Good Endpoint Design
+
+GET /users/5
+
+POST /users
+
+DELETE /users/5
+
+---
+
+## Bad Endpoint Design
+
+GET /getUser?id=5
+
+POST /deleteUser
+
+---
+
+## JSON Example
+
+```json
+{
+  "user": {
+    "name": "Raj",
+    "age": 20
+  },
+  "skills": ["Python", "FastAPI"]
+}
+```
+
+---
+
+## Important Understanding
+
+URL should represent nouns/resources.
+
+HTTP method should represent action.
