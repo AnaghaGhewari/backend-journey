@@ -14,7 +14,7 @@ def validate_vitals(
          errors.append("heart_rate must be between 30 and 220")
 
         if not(0 <= sleep <= 24):
-         errors. append("sleep must be between 0 to 24 hrs")
+         errors.append("sleep must be between 0 to 24 hrs")
 
         if(steps < 0):
            errors.append("steps cannot be less then 0")    
