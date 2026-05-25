@@ -55,7 +55,8 @@ with open("vital.json", "r") as f:
 
 import json, os
 
-def save_vital(new_entry: dict, filepath: str = "vitals_log.json"):
+def save_vital(new_entry: dict,
+               filepath: str = "vitals_log.json"):
     # Load existing data if file exists
     if os.path.exists(filepath):
         with open(filepath) as f:

@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-05-25T13:43:45.081864",
+    "vitals": {
+      "heart_rate": 105,
+      "sleep_hours": 4.5,
+      "steps": 2000
+    },
+    "weather": {
+      "temp_c": 25.0,
+      "humidity": 50
+    },
+    "risk_level": "high",
+    "risk_score": 6,
+    "risk_factors": [
+      "elevated heart rate ",
+      "low sleep",
+      "Lower activity"
+    ],
+    "notes": "felt very tired and hot today"
+  },
+  {
+    "timestamp": "2026-05-25T13:44:45.313928",
+    "vitals": {
+      "heart_rate": 105,
+      "sleep_hours": 4.5,
+      "steps": 2000
+    },
+    "weather": {
+      "temp_c": 25.0,
+      "humidity": 50
+    },
+    "risk_level": "high",
+    "risk_score": 6,
+    "risk_factors": [
+      "elevated heart rate ",
+      "low sleep",
+      "Lower activity"
+    ],
+    "notes": "felt very tired and hot today"
+  }
+]
