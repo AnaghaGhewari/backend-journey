@@ -19,3 +19,4 @@ class SimpleHandler(BaseHTTPRequestHandler):
 server = HTTPServer(("localhost",8000),SimpleHandler)   
 print("Running -> http://localhost:8000")
 server.serve_forever() 
+

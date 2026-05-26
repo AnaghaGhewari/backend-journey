@@ -23,7 +23,7 @@ def do_self(self):
         self.wfile.write(json.dumps({"heart_rate":88}).encode())
 
 # Fast api does the same thing
-@app.get("/vitals")
+#@app.get("/vitals")
 def get_vitals():
     return{"heart_rate":88}
 
