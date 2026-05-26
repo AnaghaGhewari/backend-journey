@@ -31,7 +31,7 @@ class RouteHandler(BaseHTTPRequestHandler): # Creating a custom request handler
               }
          )
         
-        elif self.path == "api/v1/users/me":
+        elif self.path == "/api/v1/users/me":
            self.send_json(200,{
               "id":"1",
               "name":"Rohan",
